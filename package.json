@@ -1,0 +1,20 @@
+{
+  "name": "all-the-fuzz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@klingen/location-search": "^1.5.0",
+    "lit": "^2.7.6"
+  },
+  "devDependencies": {
+    "ts-lit-plugin": "^1.2.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
